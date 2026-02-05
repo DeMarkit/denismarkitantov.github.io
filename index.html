@@ -1,16 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Моё хозяйство</title>
+<title>Ферма и собаки</title>
+<style>
+/* Сброс стилей */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: Arial, sans-serif; background: #fdf6e3; color: #333; line-height: 1.5; }
+
+header { background: #7ebc9f; color: #fff; padding: 50px 20px; text-align: center; }
+header h1 { font-size: 2.8em; margin-bottom: 10px; }
+header p { font-size: 1.2em; }
+
+/* Секции */
+section { padding: 40px 10%; }
+section h2 { color: #056676; margin-bottom: 20px; text-align: center; }
+
+/* Карточки */
+.cards { display: flex; flex-wrap: wrap; justify-content: center; }
+.card { background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px; width: 220px; text-align: center; padding: 15px; }
+.card img { width: 100%; border-radius: 10px; margin-bottom: 10px; }
+
+/* Контакты */
+.contact p { margin-bottom: 10px; text-align: center; font-size: 1.1em; }
+
+/* Футер */
+footer { background: #7ebc9f; color: #fff; text-align: center; padding: 20px; margin-top: 20px; }
+
+/* Кнопки */
+.button { display: inline-block; background: #056676; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin: 5px; transition: 0.3s; }
+.button:hover { background: #034f56; }
+</style>
 </head>
 <body>
 
-<h1>Разведение собак и фермерское хозяйство</h1>
+<header>
+<h1>Ферма и разведение собак</h1>
+<p>Щенки, поросята, индюки и утки — напрямую от хозяина</p>
+<a href="tel:+380XXXXXXXXX" class="button">Позвонить</a>
+<a href="https://t.me/вашник" class="button">Написать в Telegram</a>
+</header>
 
-<p>Собаки, поросята, индюки, утки — напрямую от хозяина.</p>
+<section>
+<h2>О хозяйстве</h2>
+<p style="text-align:center; max-width:700px; margin:auto;">
+Меня зовут [Имя]. Я занимаюсь разведением собак и домашним хозяйством более X лет. Все животные выращиваются с заботой и вниманием. У нас чистые условия и здоровые животные.
+</p>
+</section>
 
-<p>Телефон: +380...</p>
+<section>
+<h2>Собаки</h2>
+<div class="cards">
+  <div class="card">
+    <img src="images/dog1.jpg" alt="Алабай">
+    <h3>Алабай</h3>
+    <p>Щенки, 2 месяца</p>
+    <p>Цена: 5000 грн</p>
+  </div>
+  <div class="card">
+    <img src="images/dog2.jpg" alt="Немецкая овчарка">
+    <h3>Немецкая овчарка</h3>
+    <p>Щенки, 3 месяца</p>
+    <p>Цена: 4500 грн</p>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>Хозяйство</h2>
+<div class="cards">
+  <div class="card">
+    <img src="images/pig1.jpg" alt="Поросёнок">
+    <h3>Поросята</h3>
+    <p>2 месяца</p>
+    <p>Цена: 1500 грн</p>
+  </div>
+  <div class="card">
+    <img src="images/turkey1.jpg" alt="Индюк">
+    <h3>Индюки</h3>
+    <p>3 месяца</p>
+    <p>Цена: 1200 грн</p>
+  </div>
+  <div class="card">
+    <img src="images/duck1.jpg" alt="Утка">
+    <h3>Утки</h3>
+    <p>2 месяца</p>
+    <p>Цена: 80 грн/шт</p>
+  </div>
+</div>
+</section>
+
+<section class="contact">
+<h2>Контакты</h2>
+<p>Телефон: +380 XX XXX XX XX</p>
+<p>Telegram / Viber: @вашник</p>
+<p>Город: Никополь</p>
+</section>
+
+<footer>
+<p>© 2026 Ферма и собаки</p>
+</footer>
 
 </body>
 </html>
